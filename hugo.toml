@@ -1,0 +1,25 @@
+baseURL = "https://raphaelteixeira.com/"
+languageCode = "en-us"
+title = "Raphael Teixeira Personal Blog"
+theme = "PaperMod"
+
+[params]
+  defaultTheme = "auto"
+  ShowReadingTime = true
+  ShowCodeCopyButtons = true
+  ShowBreadCrumbs = true
+
+[markup.highlight]
+  style = "github-dark"
+  lineNos = true
+  codeFences = true
+
+[menu]
+  [[menu.main]]
+    name = "Posts"
+    url = "/posts/"
+    weight = 1
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 2
